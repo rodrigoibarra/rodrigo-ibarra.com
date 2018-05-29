@@ -3,8 +3,8 @@
 
 $black: #1F1A29;
 $gray: #E5E5E5;
-$accent: #99B3AF;
-$link: #D46961;
+$accent: #F7F476;
+$link: #FF8468;
 
 *, *:before, *:after {
   -webkit-box-sizing: border-box;
@@ -12,109 +12,55 @@ $link: #D46961;
   box-sizing: border-box;
 }
 
-img{
-	max-width: 100%;
-	height: auto;
-}
-
 body{
-	background: $gray;
-	font-size: 18px;
-	font-family: 'Playfair Display', serif;
-	color:$black;
-	@media (max-width: 670px) {
-		font-size: 16px;
-	}
+	margin:0;
+	background-color:#FFFFFF;
 }
 
-h1{
-	font-size: 3em;
-	font-family: 'Righteous', cursive;
-	margin-bottom: 0;
-	width: auto;
-	@media (max-width: 670px) {
-		font-size: 1.9em;
-	}
-}
-
-h2{
-	font-size: 2em;
-	font-family: 'Righteous', cursive;
-	margin-top:0;
-	@media (max-width: 670px) {
-		font-size: 1.2em;
-	}
-}
-
-.nav{
-	display: flex;
+  nav{
+	display: block;
 	width: 100%;
-	padding:1% 5%;
-	font-family: 'Righteous', cursive;
-	align-items: center;
-	justify-content: flex-end;
-}
-
-.logo{
-	width: 5em;
-    height: 5em;
-	padding: 0 0.1em 0.1em 0;
-	margin-right: auto;
-}
-
-.nav-item{
-	padding:.75em;
-	color:$black;
-}
-
-
-.wrap{
-	width: 85%;
-	margin: 0 auto;
-	padding:2%;
-}
-
-.grid{
-	display: flex;
-	align-items: center;
-	flex-wrap: wrap;
-}
-
-.one-grid{
-	width: 30%;
-	padding: 15px;
-	@media (max-width: 600px) {
-		width: 90%;
-	}
-}
-
-.two-grid{
-	width: 70%;
-	padding: 15px 0 15px 0;
-	@media (max-width: 600px) {
-		width: 90%;
-	}
-}
-
-hr{
-	color: $accent;
-	background-color: $accent;
-	height: 10px;
-	border: none;
-}
-
-a{
-	color: $link;
-	text-decoration: none;
-}
-
-
-.sm-link{
-	font-size: .75em;
-	font-family: 'Playfair Display', serif;
+	position: absolute;
+	top:0;
+	left: 0;
+	right: 0;
 	text-align: right;
-	margin:0 5px;
-	@media (max-width: 600px) {
-		width: 90%;
-	}
+	padding:.75em;
+
 }
+  
+  header{
+	color:#FF8468;
+	height:60vh;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+  }
+  
+  .header-title{
+	font-family: 'Bowlby One SC', cursive;
+	font-size:3.75em;
+	text-align:center;
+	display:block;  
+	padding:15px;
+	border-bottom:12px solid #AFEAED;
+  }
+  
+  .header-tag{
+	font-size:0.59em;
+	text-align:center;
+	color:#E6D040;
+	font-family: 'Open Sans', sans-serif;
+	display:block;
+  }
+  
+  p{
+	color:#002C3E;
+	font-family: 'Open Sans', sans-serif;
+	}
+	
+	.about-section{
+		width: 75ch;
+		margin: 0 auto;
+		font-size: 1.5em;
+	}
