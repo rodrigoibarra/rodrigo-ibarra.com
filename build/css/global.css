@@ -1,0 +1,66 @@
+body{
+  background-color:#222222;
+  font-family: 'Merriweather', serif;
+  color:#FFFFFF;
+  margin:0;
+  padding:0;
+}
+
+header{
+  color:#FFFFFF;
+  height:70vh;
+  display:flex;
+  flex-wrap:wrap;
+  justify-content:center;
+  align-items:center;
+}
+
+.header-title{
+  font-family: 'Bowlby One SC', sans-serif;
+  font-size:3.75em;
+  text-align:center;
+  display:block;  
+  padding:15px;
+  border-bottom:5px solid #FFFFFF;
+}
+
+.header-tag{
+  font-size:0.59em;
+  text-align:center;
+  color:#FF8468;
+  font-family: 'Archivo Narrow', sans-serif;
+  display:block;
+}
+
+b{
+  font-weight:bold;
+  font-family: 'Archivo Narrow', sans-serif;
+  font-size:1.13em;
+}
+
+.main-nav{
+  width:100%;
+  display:flex;
+  align-items:center;
+  justify-content:flex-end;
+  padding:1.75em;
+}
+
+
+
+nav a{
+  padding:.75em;
+  color:#FFFFFF;
+  text-decoration:none;
+}
+
+a{
+  color:#FF8468;
+  text-decoration:none;
+}
+
+.crest{
+  margin-right: auto;
+  width:65px;
+  fill:#FF8468;
+}
