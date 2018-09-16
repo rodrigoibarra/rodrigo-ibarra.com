@@ -64,3 +64,10 @@ a{
   width:65px;
   fill:#FF8468;
 }
+
+.wrap{
+  background: white;
+  color:#222222;
+  padding: 10%;
+  font-size: 1.35em;
+}
