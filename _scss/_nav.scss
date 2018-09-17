@@ -15,5 +15,8 @@
 }
 .crest{
   width:65px;
-  fill:$red;
+	fill:$red;
+	@media screen and (max-width: 670px) {
+		width:45px;
+ }
 }
