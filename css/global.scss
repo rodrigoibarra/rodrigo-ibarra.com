@@ -20,6 +20,9 @@ body{
 	font-family: 'Roboto', sans-serif;
 	font-size:18px;
 	font-weight: 400;
+	@media screen and (max-width: 670px) {
+        font-size: 14px;
+     }
 }
 
 a, a:hover, a:visited, a:focus{
@@ -31,6 +34,10 @@ a, a:hover, a:visited, a:focus{
 
 header, .work-section, .services-section, .contact-section{
 	padding:5.333em 20%;
+
+	@media screen and (max-width: 670px) {
+        padding:5.333em 5%;
+     }
 }
 
 @import "work";
