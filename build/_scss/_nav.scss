@@ -1,0 +1,22 @@
+---
+---
+
+.main-nav{
+	width:100%;
+	padding:5%;
+  display:flex;
+  align-items:center;
+	justify-content:flex-end;
+
+	a{
+		padding: 0 0.889em;
+	}
+}
+
+.logo-nav{
+	margin-right: auto;
+}
+.crest{
+  width:65px;
+  fill:$red;
+}

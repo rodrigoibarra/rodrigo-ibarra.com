@@ -1,0 +1,27 @@
+---
+---
+
+header{
+	display: flex;
+	justify-content:center;
+	flex-wrap: nowrap;
+    flex-direction: column;
+    background:$purple;
+	padding:1.333em 20%;
+}
+
+.header-title, .header-intro{
+	font-weight: 700;
+	font-size:3.11em;
+	text-align:left;
+	margin: 0;
+	color:$black;
+}
+
+.intro-accent{
+	color:$green;
+}
+
+.mexico-accent{
+	color:$red;
+}
