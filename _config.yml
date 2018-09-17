@@ -1,0 +1,10 @@
+title: Rodrigo Ibarra
+description: "Hi, I'm Rodrigo Ibarra and I'm a web designer."
+permalink: pretty
+excerpt_separator: <!--more-->
+sass:
+  sass_dir: _scss
+  style: compressed
+kramdown:
+  input: GFM
+# url:  https://rodrigo-ibarra.com
