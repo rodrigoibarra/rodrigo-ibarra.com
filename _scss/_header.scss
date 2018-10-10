@@ -15,9 +15,9 @@ header{
 }
 
 .intro-accent{
-	color:$green;
+	color:darken( $green, 10% );
 }
 
 .mexico-accent{
-	color:$red;
+	color:darken( $red, 10% );
 }
