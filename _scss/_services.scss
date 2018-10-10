@@ -1,0 +1,9 @@
+.services-section{
+    display: grid;
+    grid-gap: 2em;
+    grid-template-columns: 1fr 1fr;
+}
+.services-section-title{
+    grid-column: 1 / 3;
+}
+
