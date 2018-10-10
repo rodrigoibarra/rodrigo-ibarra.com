@@ -2,7 +2,13 @@
     display: grid;
     grid-gap: 2em;
     grid-template-columns: 1fr 1fr;
+    @media screen and (max-width: 550px) {
+        display:block;
+    }
 }
+
+
+
 .services-section-title{
     grid-column: 1 / 3;
 }
