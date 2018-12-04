@@ -1,12 +1,12 @@
 .work-section{
-	color:$grey;
+	color:lighten($purple, 80%);
 	border-bottom:2.222em solid $purple;
 	background-color: $black;
 	-webkit-clip-path: polygon(0 100%, 100% 100%, 100% 0, 50% 6%, 0 0);
 	clip-path: polygon(0 100%, 100% 100%, 100% 0, 50% 6%, 0 0);
 
 	a{
-		color:$green;
+		color:lighten($purple, 50%);
 	}
 
 }
