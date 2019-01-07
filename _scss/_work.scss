@@ -6,7 +6,13 @@
 	clip-path: polygon(0 100%, 100% 100%, 100% 0, 50% 6%, 0 0);
 
 	a{
-		color:lighten($purple, 50%);
+		outline: none;
+        text-decoration: none;
+        transition: all .2s ease-out;
+        background: linear-gradient($purple, $purple);
+        background-size: 100% .2em;
+        background-repeat: no-repeat;
+        background-position: left 0 bottom 0;
 	}
 
 }
