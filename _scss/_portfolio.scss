@@ -5,6 +5,10 @@
     grid-gap: 15px;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
 
+    @media screen and (max-width: 550px) {
+        display:block;
+    }
+
     img{
         width: 100%;
     }
