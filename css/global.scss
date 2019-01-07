@@ -2,10 +2,11 @@
 ---
 
 $black:#272727;
-$green: #51297F;
-$grey: #edf8f6;
-$red: #51297F;
-$purple: #67597a;
+$blue: #009FCF;
+$green: #00B689;
+$grey: #E4E3E3;
+$red: #FF5845;
+$purple: #51297F;
 
 
 *, *:before, *:after {
@@ -26,13 +27,14 @@ body{
 }
 
 a, a:hover, a:visited, a:focus{
-	color:darken( $grey, 10% );
+	font-size:1.09999em;
+	color:inherit;
 }
 
 @import "nav";
 @import "header";
 
-header, .work-section, .services-section, .contact-section{
+header, .work-section, .services-section, .contact-section, .portfolio-section{
 	padding:5.333em 20%;
 
 	@media screen and (max-width: 670px) {
@@ -61,5 +63,6 @@ header, .work-section, .services-section, .contact-section{
 @import "services";
 
 @import "contact";
+@import "portfolio";
 
 @import "footer";
