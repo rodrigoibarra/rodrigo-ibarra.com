@@ -34,7 +34,7 @@ a, a:hover, a:visited, a:focus{
 @import "nav";
 @import "header";
 
-header, .work-section, .services-section, .contact-section, .portfolio-section{
+header, .work-section, .services-section, .contact-section, .portfolio-section, .sideProjects{
 	padding:5.333em 20%;
 
 	@media screen and (max-width: 670px) {
@@ -61,7 +61,7 @@ header, .work-section, .services-section, .contact-section, .portfolio-section{
 }
 
 @import "services";
-
+@import "sideprojects";
 @import "contact";
 @import "portfolio";
 

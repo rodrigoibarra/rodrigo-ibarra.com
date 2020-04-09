@@ -1,0 +1,24 @@
+.sideProjects{
+    background-color: lighten( $red, 5% );;
+    padding-bottom:8em;
+    position: relative;
+    top:3em;
+    color:white;
+}
+
+.sideProjectsList{
+    list-style: none;
+}
+
+
+a.projectLink {
+    font-size: .8em;
+    font-weight: bold;
+    color: lighten( $black, 5% );
+    text-decoration: none;
+    transition: all .2s ease-out;
+    background: linear-gradient($purple, $purple);
+    background-size: 100% .2em;
+    background-repeat: no-repeat;
+    background-position: left 0 bottom 0;
+}
